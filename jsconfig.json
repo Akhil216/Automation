@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "types": [
+            "node",
+            "@wdio/globals/types",
+            "@wdio/mocha-framework"
+        ]
+    },
+
+    "include": [
+        "test/specs/other_spec_files/*.js",
+        "**/*.json",
+        "node_modules/@wdio/sync",
+        "node_modules/@wdio-mocha-framework"
+, "test/specs/other_spec_files/UI_Controls.cjs"    ]
+}
